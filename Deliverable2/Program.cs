@@ -62,7 +62,7 @@ namespace TestDeliverable2
                 Console.WriteLine("\nThanks for stopping in, today! Here's your bill. Total price: $" + bill +
                     ". Have a great day!");
             }
-            else
+            else if (group > 6)
             {
                 Console.WriteLine("\nSorry, we can only accommodate groups up to 6 people. Have a nice day!");
             }
